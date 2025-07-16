@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/openmev-go/internal/apijson"
-	"github.com/stainless-sdks/openmev-go/packages/respjson"
+	"github.com/manifoldfinance/openmev/internal/apijson"
+	"github.com/manifoldfinance/openmev/packages/respjson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

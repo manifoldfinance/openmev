@@ -14,7 +14,7 @@ import (
 	"encoding"
 	"encoding/base64"
 	"fmt"
-	"github.com/stainless-sdks/openmev-go/internal/encoding/json/shims"
+	"github.com/manifoldfinance/openmev/internal/encoding/json/shims"
 	"reflect"
 	"strconv"
 	"strings"

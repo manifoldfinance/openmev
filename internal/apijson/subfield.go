@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/stainless-sdks/openmev-go/packages/respjson"
+	"github.com/manifoldfinance/openmev/packages/respjson"
 	"reflect"
 )
 

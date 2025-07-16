@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/openmev-go
+module github.com/manifoldfinance/openmev
 
 go 1.21
 

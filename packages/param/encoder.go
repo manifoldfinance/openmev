@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	shimjson "github.com/stainless-sdks/openmev-go/internal/encoding/json"
+	shimjson "github.com/manifoldfinance/openmev/internal/encoding/json"
 
 	"github.com/tidwall/sjson"
 )

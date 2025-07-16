@@ -6,11 +6,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/openmev-go/internal/apijson"
-	"github.com/stainless-sdks/openmev-go/internal/requestconfig"
-	"github.com/stainless-sdks/openmev-go/option"
-	"github.com/stainless-sdks/openmev-go/packages/param"
-	"github.com/stainless-sdks/openmev-go/packages/respjson"
+	"github.com/manifoldfinance/openmev/internal/apijson"
+	"github.com/manifoldfinance/openmev/internal/requestconfig"
+	"github.com/manifoldfinance/openmev/option"
+	"github.com/manifoldfinance/openmev/packages/param"
+	"github.com/manifoldfinance/openmev/packages/respjson"
 )
 
 // APIV1AuthRegisterService contains methods and other services that help with

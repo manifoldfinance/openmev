@@ -1,8 +1,8 @@
 package paramutil
 
 import (
-	"github.com/stainless-sdks/openmev-go/packages/param"
-	"github.com/stainless-sdks/openmev-go/packages/respjson"
+	"github.com/manifoldfinance/openmev/packages/param"
+	"github.com/manifoldfinance/openmev/packages/respjson"
 )
 
 func AddrIfPresent[T comparable](v param.Opt[T]) *T {
