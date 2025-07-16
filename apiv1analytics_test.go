@@ -1,0 +1,95 @@
+// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+package openmev_test
+
+import (
+	"context"
+	"errors"
+	"os"
+	"testing"
+
+	"github.com/stainless-sdks/openmev-go"
+	"github.com/stainless-sdks/openmev-go/internal/testutil"
+	"github.com/stainless-sdks/openmev-go/option"
+)
+
+func TestAPIV1AnalyticsGetWithOptionalParams(t *testing.T) {
+	t.Skip("skipped: tests are disabled for the time being")
+	baseURL := "http://localhost:4010"
+	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
+		baseURL = envURL
+	}
+	if !testutil.CheckTestServer(t, baseURL) {
+		return
+	}
+	client := openmev.NewClient(
+		option.WithBaseURL(baseURL),
+		option.WithAPIKey("My API Key"),
+	)
+	_, err := client.API.V1.Analytics.Get(
+		context.TODO(),
+		"id",
+		openmev.APIV1AnalyticsGetParams{
+			Period: openmev.APIV1AnalyticsGetParamsPeriod7d,
+		},
+	)
+	if err != nil {
+		var apierr *openmev.Error
+		if errors.As(err, &apierr) {
+			t.Log(string(apierr.DumpRequest(true)))
+		}
+		t.Fatalf("err should be nil: %s", err.Error())
+	}
+}
+
+func TestAPIV1AnalyticsGetLeaderboardWithOptionalParams(t *testing.T) {
+	t.Skip("skipped: tests are disabled for the time being")
+	baseURL := "http://localhost:4010"
+	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
+		baseURL = envURL
+	}
+	if !testutil.CheckTestServer(t, baseURL) {
+		return
+	}
+	client := openmev.NewClient(
+		option.WithBaseURL(baseURL),
+		option.WithAPIKey("My API Key"),
+	)
+	_, err := client.API.V1.Analytics.GetLeaderboard(context.TODO(), openmev.APIV1AnalyticsGetLeaderboardParams{
+		Limit:  openmev.Float(1),
+		Metric: openmev.APIV1AnalyticsGetLeaderboardParamsMetricVolume,
+		Period: openmev.APIV1AnalyticsGetLeaderboardParamsPeriodDaily,
+	})
+	if err != nil {
+		var apierr *openmev.Error
+		if errors.As(err, &apierr) {
+			t.Log(string(apierr.DumpRequest(true)))
+		}
+		t.Fatalf("err should be nil: %s", err.Error())
+	}
+}
+
+func TestAPIV1AnalyticsGetSystemWithOptionalParams(t *testing.T) {
+	t.Skip("skipped: tests are disabled for the time being")
+	baseURL := "http://localhost:4010"
+	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
+		baseURL = envURL
+	}
+	if !testutil.CheckTestServer(t, baseURL) {
+		return
+	}
+	client := openmev.NewClient(
+		option.WithBaseURL(baseURL),
+		option.WithAPIKey("My API Key"),
+	)
+	_, err := client.API.V1.Analytics.GetSystem(context.TODO(), openmev.APIV1AnalyticsGetSystemParams{
+		Period: openmev.APIV1AnalyticsGetSystemParamsPeriod24h,
+	})
+	if err != nil {
+		var apierr *openmev.Error
+		if errors.As(err, &apierr) {
+			t.Log(string(apierr.DumpRequest(true)))
+		}
+		t.Fatalf("err should be nil: %s", err.Error())
+	}
+}
