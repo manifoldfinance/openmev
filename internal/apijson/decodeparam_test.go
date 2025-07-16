@@ -3,8 +3,8 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/openmev-go/internal/apijson"
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/internal/apijson"
+	"github.com/manifoldfinance/openmev/packages/param"
 	"reflect"
 	"testing"
 )

@@ -1,6 +1,6 @@
 # Openmev Go API Library
 
-<a href="https://pkg.go.dev/github.com/stainless-sdks/openmev-go"><img src="https://pkg.go.dev/badge/github.com/stainless-sdks/openmev-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/manifoldfinance/openmev"><img src="https://pkg.go.dev/badge/github.com/manifoldfinance/openmev.svg" alt="Go Reference"></a>
 
 The Openmev Go library provides convenient access to the [Openmev REST API](https://github.com/your-org/auction-system)
 from applications written in Go.
@@ -9,17 +9,25 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
+<!-- x-release-please-start-version -->
+
 ```go
 import (
-	"github.com/stainless-sdks/openmev-go" // imported as openmev
+	"github.com/manifoldfinance/openmev" // imported as openmev
 )
 ```
 
+<!-- x-release-please-end -->
+
 Or to pin the version:
 
+<!-- x-release-please-start-version -->
+
 ```sh
-go get -u 'github.com/stainless-sdks/openmev-go@v0.0.1-alpha.0'
+go get -u 'github.com/manifoldfinance/openmev@v0.0.1-alpha.0'
 ```
+
+<!-- x-release-please-end -->
 
 ## Requirements
 
@@ -36,8 +44,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stainless-sdks/openmev-go"
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 func main() {
@@ -265,7 +273,7 @@ client.API.V1.Public.Auctions.GetHistory(context.TODO(), ...,
 
 The request option `option.WithDebugLog(nil)` may be helpful while debugging.
 
-See the [full list of request options](https://pkg.go.dev/github.com/stainless-sdks/openmev-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/manifoldfinance/openmev/option).
 
 ### Pagination
 
@@ -471,7 +479,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/openmev-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/manifoldfinance/openmev/issues) with questions, bugs, or suggestions.
 
 ## Contributing
 

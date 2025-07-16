@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/packages/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

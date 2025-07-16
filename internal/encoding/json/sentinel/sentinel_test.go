@@ -1,8 +1,8 @@
 package sentinel_test
 
 import (
-	"github.com/stainless-sdks/openmev-go/internal/encoding/json/sentinel"
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/internal/encoding/json/sentinel"
+	"github.com/manifoldfinance/openmev/packages/param"
 	"reflect"
 	"slices"
 	"testing"

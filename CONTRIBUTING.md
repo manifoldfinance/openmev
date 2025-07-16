@@ -41,7 +41,7 @@ To use a local version of this library from source in another project, edit the 
 directive. This can be done through the CLI with the following:
 
 ```sh
-$ go mod edit -replace github.com/stainless-sdks/openmev-go=/path/to/openmev-go
+$ go mod edit -replace github.com/manifoldfinance/openmev=/path/to/openmev
 ```
 
 ## Running tests

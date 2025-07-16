@@ -1,7 +1,7 @@
 package apiquery
 
 import (
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/packages/param"
 	"net/url"
 	"testing"
 	"time"

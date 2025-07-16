@@ -3,8 +3,8 @@
 package openmev
 
 import (
-	"github.com/stainless-sdks/openmev-go/internal/apierror"
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/internal/apierror"
+	"github.com/manifoldfinance/openmev/packages/param"
 )
 
 // aliased to make [param.APIUnion] private when embedding

@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/openmev-go/internal"
-	"github.com/stainless-sdks/openmev-go/internal/apierror"
-	"github.com/stainless-sdks/openmev-go/internal/apiform"
-	"github.com/stainless-sdks/openmev-go/internal/apiquery"
+	"github.com/manifoldfinance/openmev/internal"
+	"github.com/manifoldfinance/openmev/internal/apierror"
+	"github.com/manifoldfinance/openmev/internal/apiform"
+	"github.com/manifoldfinance/openmev/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

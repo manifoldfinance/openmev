@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/stainless-sdks/openmev-go/internal/requestconfig"
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev/internal/requestconfig"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 // Client creates a struct with services and top level methods that help with

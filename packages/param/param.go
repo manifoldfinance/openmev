@@ -2,7 +2,7 @@ package param
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/openmev-go/internal/encoding/json/sentinel"
+	"github.com/manifoldfinance/openmev/internal/encoding/json/sentinel"
 	"reflect"
 )
 

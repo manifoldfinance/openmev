@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/openmev-go"
-	"github.com/stainless-sdks/openmev-go/internal/testutil"
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev"
+	"github.com/manifoldfinance/openmev/internal/testutil"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 func TestUsage(t *testing.T) {
