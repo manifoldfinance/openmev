@@ -1,6 +1,10 @@
 # Openmev Go API Library
 
+<!-- x-release-please-start-version -->
+
 <a href="https://pkg.go.dev/github.com/manifoldfinance/openmev"><img src="https://pkg.go.dev/badge/github.com/manifoldfinance/openmev.svg" alt="Go Reference"></a>
+
+<!-- x-release-please-end -->
 
 The Openmev Go library provides convenient access to the [Openmev REST API](https://github.com/your-org/auction-system)
 from applications written in Go.
