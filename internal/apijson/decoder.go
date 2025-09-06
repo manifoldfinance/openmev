@@ -7,7 +7,7 @@ package apijson
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/packages/param"
 	"reflect"
 	"strconv"
 	"sync"

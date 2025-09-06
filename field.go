@@ -1,7 +1,7 @@
 package openmev
 
 import (
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/packages/param"
 	"io"
 	"time"
 )

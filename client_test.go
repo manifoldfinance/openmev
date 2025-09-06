@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/openmev-go"
-	"github.com/stainless-sdks/openmev-go/internal"
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev"
+	"github.com/manifoldfinance/openmev/internal"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 type closureTransport struct {

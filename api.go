@@ -3,7 +3,7 @@
 package openmev
 
 import (
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 // APIService contains methods and other services that help with interacting with

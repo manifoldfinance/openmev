@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/openmev-go"
-	"github.com/stainless-sdks/openmev-go/internal/testutil"
-	"github.com/stainless-sdks/openmev-go/option"
+	"github.com/manifoldfinance/openmev"
+	"github.com/manifoldfinance/openmev/internal/testutil"
+	"github.com/manifoldfinance/openmev/option"
 )
 
 func TestAPIV1OrganizationGet(t *testing.T) {
-	t.Skip("skipped: tests are disabled for the time being")
+	t.Skip("Prism tests are disabled")
 	baseURL := "http://localhost:4010"
 	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
 		baseURL = envURL
@@ -37,7 +37,7 @@ func TestAPIV1OrganizationGet(t *testing.T) {
 }
 
 func TestAPIV1OrganizationUpdateWithOptionalParams(t *testing.T) {
-	t.Skip("skipped: tests are disabled for the time being")
+	t.Skip("Prism tests are disabled")
 	baseURL := "http://localhost:4010"
 	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
 		baseURL = envURL
@@ -71,7 +71,7 @@ func TestAPIV1OrganizationUpdateWithOptionalParams(t *testing.T) {
 }
 
 func TestAPIV1OrganizationListWithOptionalParams(t *testing.T) {
-	t.Skip("skipped: tests are disabled for the time being")
+	t.Skip("Prism tests are disabled")
 	baseURL := "http://localhost:4010"
 	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
 		baseURL = envURL
@@ -97,7 +97,7 @@ func TestAPIV1OrganizationListWithOptionalParams(t *testing.T) {
 }
 
 func TestAPIV1OrganizationInvitesWithOptionalParams(t *testing.T) {
-	t.Skip("skipped: tests are disabled for the time being")
+	t.Skip("Prism tests are disabled")
 	baseURL := "http://localhost:4010"
 	if envURL, ok := os.LookupEnv("TEST_API_BASE_URL"); ok {
 		baseURL = envURL

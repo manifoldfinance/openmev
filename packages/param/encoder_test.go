@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/openmev-go/packages/param"
+	"github.com/manifoldfinance/openmev/packages/param"
 )
 
 type Struct struct {

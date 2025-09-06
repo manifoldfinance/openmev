@@ -3,8 +3,8 @@ package respjson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/openmev-go/internal/apijson"
-	rj "github.com/stainless-sdks/openmev-go/packages/respjson"
+	"github.com/manifoldfinance/openmev/internal/apijson"
+	rj "github.com/manifoldfinance/openmev/packages/respjson"
 	"reflect"
 	"testing"
 )
