@@ -28,7 +28,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/manifoldfinance/openmev@v0.0.1-alpha.0'
+go get -u 'github.com/manifoldfinance/openmev@v0.0.1-alpha.1'
 ```
 
 <!-- x-release-please-end -->
